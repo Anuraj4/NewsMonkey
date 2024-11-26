@@ -8,6 +8,7 @@ export const NewsItem = ({ title, description, imageUrl, newsUrl }) => {
                     src={imageUrl || "https://via.placeholder.com/150"}
                     className="card-img-top"
                     alt={title || "News Image"}
+                    style={{ height: "180px", width: "100%", objectFit: "cover" }} // Added styles
                 />
                 <div className="card-body">
                     <h5 className="card-title">{title || "No Title Available"}...</h5>
