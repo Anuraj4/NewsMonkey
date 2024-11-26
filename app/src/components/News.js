@@ -34,7 +34,7 @@ export const News = () => {
 
     return (
         <div className="container my-3">
-            <h2 className="text-white">NewsMonkey - Top Headlines</h2>
+            <h2 className="text-white">News - Top Headlines</h2>
             <div className="row">
                 {articles.map((article, index) => (
                     <div className="col-md-4" key={index}>
